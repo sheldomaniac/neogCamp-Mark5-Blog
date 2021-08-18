@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300&family=Sacramento&family=Source+Sans+Pro:wght@200;400&display=swap');
+
+
+:root{
+    --color1:rgba(235, 235, 235, 0.67);
+    --color2: #444444;
+    --color3: #171717;
+    --color4: #D83A56;
+    --color5 : white;
+    --color6: rgba(68,68,68,0.1);
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    background-color: var(--color5);
+    padding: 1.1rem 0 1.1rem 0;
+}
+
+body{
+    margin:0%;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background-color: var(--color1);
+}
+
+hr{
+    width: 80%;
+    border: none;
+    border-top: 1px solid var(--color4);
+
+}
+
+ img{
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+/* HEADER */
+header{
+    
+    background-color: var(--color4);
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    margin:1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+.span-link a{
+    text-decoration: underline;
+    color: var(--color3);
+}
+
+.mainSheldon {
+    color: var(--color5);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem;
+    align-content: flex-start;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.mainLink{
+    display: inline;
+}
+
+.mainLink a{
+    color: var(--color5);
+    margin: 1rem;
+}
+
+/* HEADER */
+/* HOMEPAGE */
+.homePage{
+    text-align: center;
+
+}
+
+.background-1{
+    background-color: var(--color6);
+    
+    padding: 2rem 5rem;
+}
+
+.background-2{
+    background-color: var(--color5);
+    
+    padding: 2rem 5rem;
+}
+
+.home-intro{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: var(--color5);
+    margin:1rem;
+}
+
+.summary-text{
+    color: var(--color4);
+}
+
+.home-image{
+    margin: 0.5%;
+}
+
+.home{
+    color: var(--color2);
+    margin: 0.5rem;
+}
+
+
+.home-fsd{
+    background-color: var(--color4);
+    color: var(--color5);
+}
+
+/* HOMEPAGE */
+/* ABOUT ME */
+
+.about-section{    
+    background-color: var(--color1);
+    padding: 1rem;
+}
+
+.about, .feedback{
+    width: 60%;
+    margin: 0 20%;
+}
+
+.about-me, .feedback-header{
+    color: var(--color3);
+}
+
+.about-feedback, .about-here{
+    text-decoration: underline;
+    color: var(--color4);
+}
+
+.about-fsd{
+    color:var(--color4);
+}
+
+.social-media{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.fb-images{
+    width: 2rem;
+}
+
+.fb-images:hover{
+    transform: scale(1.3);
+}
+
+/* ABOUT ME */
+
+/* FEEDBACK */
+
+.social-media{
+    margin: 1rem 20%;
+}
+
+.feedback-resume{
+    position: relative;
+    left: 40%;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    color: var(--color4);
+}
+
+
+.feedback-resume:hover{
+    transform: scale(1.3);
+}
+
+.feedback-mail{
+    margin:2rem auto;
+    text-align: center;
+}
+
+.usr-name{
+    width:40%;
+    height: 2rem;
+    margin: 0.5rem auto;
+}
+
+.usr-subject{
+    width:82%;
+    height: 2rem;
+    margin: 0.5rem auto;
+}
+
+.usr-msg{
+    width:82%;
+    height: 6rem;
+    margin: 0.5rem auto;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+
+.send-msg{
+    background-color: var(--color4);
+    color:var(--color5);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+/* FEEDBACK */
+/* FOOTER */
+footer{
+    
+    background-color: var(--color3);
+    padding: 1rem;
+    color: var(--color5);
+}
+
+.footer-nav{
+    margin:1rem 1rem 1rem 1rem;
+    width: 60%;
+    margin: auto;
+}
+
+.bottom-text{
+    text-align: center;
+    
+    
+}
+
+footer a{
+    color: var(--color5);
+    text-decoration: underline;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+/* FOOTER */
+/* PROJECTS */
+
+.project-links a{
+    color: var(--color4);
+}
+
+/* PROJECTS */
